@@ -1,0 +1,31 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body onload="intro()">
+    <div>
+        <div class="text-center">
+            <h1 id="container">Hello, World Lets learn about Travis Today! </h1>
+            <p id="hello_world" class="display-4 green-text" onmouseover="newColor()" onmouseout="oldColor()">My favorite song growing up was Boulevard of Broken Dreams by Green Day</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Soa3gO7tL-c?si=iqXpfXhxCuYKXKMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="text-center">
+        <p  class="display-4 green-text">My favorite animal was a penguin</p>
+        <img src="~/img/penguin.jpg" class="" />
+    </div>
+    <div class="text-center">
+        <p  class="display-4 green-text">My faovrite food is american chinese food</p>
+        <img src="~/img/chinesefood.jpg" class="" />
+    </div>
+</body>
+
+</html>
